@@ -137,9 +137,9 @@ export const projects = [
       'Wrote queries to filter records and to answer analytical questions about the data.',
       'Practised filtering and sorting records, including WHERE conditions such as feedback_rate >= 8, using the top_10_movies table.'
     ],
-    findings: ['Used SQL queries to filter movie records and explore which entries met selected conditions. This is ongoing practice rather than a completed business analysis.']
-    recommendations: ['The same filtering and aggregation approach can later be applied to business datasets such as orders, sales and customer records.']
-    learned: ['Practised translating a question into a SQL condition and checking the returned records.']
+    findings: ['Used SQL queries to filter movie records and explore which entries met selected conditions. This is ongoing practice rather than a completed business analysis.'],
+    recommendations: ['The same filtering and aggregation approach can later be applied to business datasets such as orders, sales and customer records.'],
+    learned: ['Practised translating a question into a SQL condition and checking the returned records.'],
     links: [{ label: 'SQL scripts on GitHub', url: '' }],
   },
   {
