@@ -144,7 +144,7 @@ export const projects = [
   },
   {
     slug: 'tata-iam-simulation',
-    title: 'Tata Cybersecurity Analyst Job Simulation',
+    title: 'TCS IAM Job Simulation',
     status: 'Completed (November 2026)',
     kind: 'Forage virtual job simulation',
     tools: ['IAM concepts', 'RBAC', 'MFA', 'SSO'],
@@ -158,9 +158,9 @@ export const projects = [
       'Access control concepts including role-based access control (RBAC), multi-factor authentication (MFA) and single sign-on (SSO).',
       'IAM implementation planning: resource planning, integration challenges, testing and deployment strategy.',
     ],
-    findings: ['Scored 90% in the final quiz.', 'Prepared an IAM implementation plan covering readiness, identity lifecycle, access controls, integration considerations and rollout stages.']
-    recommendations: ['Use role-based access control to align permissions with job responsibilities, strengthen sign-in with multi-factor authentication, and test the solution through a controlled pilot before wider rollout.']
-    learned: ['Breaking a large technical rollout into assessment, design, planning and testing stages.', 'Considering user access, security, integration and change management together rather than treating implementation as a purely technical task.']
+    findings: ['Scored 90% in the final quiz.', 'Prepared an IAM implementation plan covering readiness, identity lifecycle, access controls, integration considerations and rollout stages.'],
+    recommendations: ['Use role-based access control to align permissions with job responsibilities, strengthen sign-in with multi-factor authentication, and test the solution through a controlled pilot before wider rollout.'],
+    learned: ['Breaking a large technical rollout into assessment, design, planning and testing stages.', 'Considering user access, security, integration and change management together rather than treating implementation as a purely technical task.'],
     links: [{ label: 'Forage certificate', url: '' }],
   },
   {
@@ -169,13 +169,13 @@ export const projects = [
     status: 'Completed',
     kind: 'Forage virtual job simulation',
     tools: ['Forage virtual job simulation'],
-    summary: 'A completed Forage virtual job simulation based on an online retail business scenario.'
-    objective: 'Explore business tasks in an online retail context and practise approaching workplace-style problems through a guided simulation.'
-    context: 'The simulation provided a structured online retail scenario. This portfolio records it as a learning experience and does not claim employment or real client work.'
-    approach: ['Worked through the activities provided in the Forage simulation.', 'Completed the simulation and reflected on how structured analysis supports retail business decisions.']
-    findings: ['Completed the assigned simulation activities. A detailed task-by-task breakdown is not included because the original deliverables are not linked here.']
-    recommendations: ['In a real retail business, recommendations should be based on verified customer, product and transaction data rather than assumptions.']
-    learned: ['Practised following a business scenario, structuring tasks and communicating work clearly.']
+    summary: 'A completed Forage virtual job simulation based on an online retail business scenario.',
+    objective: 'Explore business tasks in an online retail context and practise approaching workplace-style problems through a guided simulation.',
+    context: 'The simulation provided a structured online retail scenario. This portfolio records it as a learning experience and does not claim employment or real client work.',
+    approach: ['Worked through the activities provided in the Forage simulation.', 'Completed the simulation and reflected on how structured analysis supports retail business decisions.'],
+    findings: ['Completed the assigned simulation activities. A detailed task-by-task breakdown is not included because the original deliverables are not linked here.'],
+    recommendations: ['In a real retail business, recommendations should be based on verified customer, product and transaction data rather than assumptions.'],
+    learned: ['Practised following a business scenario, structuring tasks and communicating work clearly.'],
     links: [{ label: 'Forage certificate', url: '' }, { label: 'Deliverables', url: '' }],
   },
 ]
