@@ -8,7 +8,7 @@ export const profile = {
   name: 'Amritha Pandla',
   email: 'amrithapandla755@gmail.com',
   linkedin: 'https://www.linkedin.com/in/amritha-pandla-375a29373',
-  github: '', // Add your GitHub profile when ready.
+  github: 'https://github.com/s08634967-cpu',
   resume: '', // Add your latest PDF as public/resume.pdf, then set this to '/resume.pdf'. Update this whenever your resume changes.
   college: 'Avinash College of Commerce (Osmania University)',
   city: 'Hyderabad, India',
@@ -84,13 +84,13 @@ export const projects = [
     objective: 'Analyse food delivery customer experience data in Excel and present clear, meaningful observations.',
     context: 'Food delivery businesses compete on speed, order accuracy and service quality. Understanding where customers are satisfied or frustrated helps a business decide where to improve. This was completed as part of my Excel learning.',
     approach: [
-      '[Add: where the dataset came from and what each column represents]',
-      '[Add: how you cleaned the data, e.g. removing duplicates or fixing blanks]',
-      '[Add: the Excel features used, e.g. pivot tables, formulas, charts]',
+      'Reviewed the available customer-experience records and organised the information for analysis in Excel.',
+      'Used the workbook to explore customer experience patterns; detailed cleaning steps are not claimed here without the working file.',
+      'Applied Excel-based analysis and summarised the observations in a mini-project format.'
     ],
-    findings: ['[Add: observation 1, with the supporting number or chart]', '[Add: observation 2]', '[Add: observation 3]'],
-    recommendations: ['[Add: one or two practical suggestions a delivery business could act on, linked to your findings]'],
-    learned: ['[Add: what this project taught you about Excel and about presenting data]'],
+    findings: ['This mini-project explored customer experience data and how it can inform service improvement. The supporting workbook is not yet linked, so no numerical findings are published on this page.'],
+    recommendations: ['A delivery business can use customer feedback and service metrics to identify recurring friction points, then prioritise improvements using evidence from its own data.'],
+    learned: ['Practised organising information in Excel and communicating observations in a business-friendly way.'],
     links: [{ label: 'Excel workbook', url: '' }, { label: 'Summary report', url: '' }],
   },
   {
@@ -115,12 +115,12 @@ export const projects = [
       ['Assumption', 'A reasoned guess about why something happened. It is a hypothesis, not a finding.'],
     ],
     findings: [
-      '[Add: regional comparison table, marked as Published fact, with source and fiscal year]',
-      '[Add: your calculated comparisons, marked as My analysis]',
-      '[Add: possible explanations, marked as Assumption]',
+      'Analysis is in progress. Regional figures will be added only after checking them against Nike’s published reports and recording the fiscal year and source.',
+      'Calculated comparisons and interpretations will be labelled separately from the original published facts.',
+      'Possible explanations will be presented as hypotheses, not confirmed causes.'
     ],
-    recommendations: ['[Add: hypothetical recommendations for stakeholders, clearly labelled as hypothetical]'],
-    learned: ['[Add after finishing: what you learned about reading company reports and separating evidence from opinion]'],
+    recommendations: ['Hypothetical recommendations will be added after the regional comparisons are complete, and will be tied directly to the evidence.'],
+    learned: ['This project is strengthening my ability to read company reports and distinguish published facts, my own calculations and assumptions.'],
     links: [{ label: 'Source list', url: '' }, { label: 'Analysis workbook', url: '' }, { label: 'Final report', url: '' }],
   },
   {
@@ -135,11 +135,11 @@ export const projects = [
     approach: [
       'Loaded a movie dataset into MySQL and explored its tables and columns.',
       'Wrote queries to filter records and to answer analytical questions about the data.',
-      '[Add: the SQL concepts you practised, e.g. WHERE, ORDER BY, GROUP BY, JOINs]',
+      'Practised filtering and sorting records, including WHERE conditions such as feedback_rate >= 8, using the top_10_movies table.'
     ],
-    findings: ['[Add: 2 or 3 example questions and the query you wrote for each]', '[Add: what the query results showed about the movies]'],
-    recommendations: ['[Add: optional, e.g. how these queries could be adapted to a business dataset such as sales or customers]'],
-    learned: ['[Add: what you found hardest or most useful about SQL so far]'],
+    findings: ['Used SQL queries to filter movie records and explore which entries met selected conditions. This is ongoing practice rather than a completed business analysis.']
+    recommendations: ['The same filtering and aggregation approach can later be applied to business datasets such as orders, sales and customer records.']
+    learned: ['Practised translating a question into a SQL condition and checking the returned records.']
     links: [{ label: 'SQL scripts on GitHub', url: '' }],
   },
   {
@@ -158,9 +158,9 @@ export const projects = [
       'Access control concepts including role-based access control (RBAC), multi-factor authentication (MFA) and single sign-on (SSO).',
       'IAM implementation planning: resource planning, integration challenges, testing and deployment strategy.',
     ],
-    findings: ['Scored 90% in the final quiz.', '[Add: a short summary of your deliverable, and any recommendation you wrote]'],
-    recommendations: ['[Add: optional, the main recommendation from your IAM plan]'],
-    learned: ['Breaking a large technical rollout into assessment, design, planning and testing stages.', '[Add: anything else you took from it]'],
+    findings: ['Scored 90% in the final quiz.', 'Prepared an IAM implementation plan covering readiness, identity lifecycle, access controls, integration considerations and rollout stages.']
+    recommendations: ['Use role-based access control to align permissions with job responsibilities, strengthen sign-in with multi-factor authentication, and test the solution through a controlled pilot before wider rollout.']
+    learned: ['Breaking a large technical rollout into assessment, design, planning and testing stages.', 'Considering user access, security, integration and change management together rather than treating implementation as a purely technical task.']
     links: [{ label: 'Forage certificate', url: '' }],
   },
   {
@@ -168,24 +168,24 @@ export const projects = [
     title: 'Online Retail Simulation',
     status: 'Completed',
     kind: 'Forage virtual job simulation',
-    tools: ['[Add: tools used]'],
-    summary: 'A virtual job simulation in an online retail setting. Task details to be added.',
-    objective: '[Add: the objective of the simulation, in one or two sentences]',
-    context: '[Add: the retail business scenario and the role you played]',
-    approach: ['[Add: Task 1 and how you approached it]', '[Add: Task 2 and how you approached it]'],
-    findings: ['[Add: the deliverables you produced and what they showed]'],
-    recommendations: ['[Add: the recommendations you made]'],
-    learned: ['[Add: what you learned]'],
+    tools: ['Forage virtual job simulation'],
+    summary: 'A completed Forage virtual job simulation based on an online retail business scenario.'
+    objective: 'Explore business tasks in an online retail context and practise approaching workplace-style problems through a guided simulation.'
+    context: 'The simulation provided a structured online retail scenario. This portfolio records it as a learning experience and does not claim employment or real client work.'
+    approach: ['Worked through the activities provided in the Forage simulation.', 'Completed the simulation and reflected on how structured analysis supports retail business decisions.']
+    findings: ['Completed the assigned simulation activities. A detailed task-by-task breakdown is not included because the original deliverables are not linked here.']
+    recommendations: ['In a real retail business, recommendations should be based on verified customer, product and transaction data rather than assumptions.']
+    learned: ['Practised following a business scenario, structuring tasks and communicating work clearly.']
     links: [{ label: 'Forage certificate', url: '' }, { label: 'Deliverables', url: '' }],
   },
 ]
 
 export const certifications = [
-  { title: 'SQL Learning and Certification', issuer: 'IBM SkillsBuild / Cognitive Class', type: 'Course certificate', url: '', issued: '[Add issue date]', credentialId: '[Add credential ID]' },
-  { title: 'Excel with ChatGPT Automation', issuer: 'Simplilearn', type: 'Certificate of completion', url: '', issued: '[Add issue date]', credentialId: '[Add credential ID]' },
-  { title: 'Power BI Data Analytics Masterclass', issuer: 'InfraOne', type: 'Masterclass', url: '', issued: '[Add issue date]', credentialId: '[Add credential ID]' },
-  { title: 'Tata Cybersecurity Analyst Job Simulation', issuer: 'Forage', type: 'Job simulation', url: '', issued: 'November 2026', credentialId: '[Add credential ID]' },
-  { title: 'Online Retail Simulation', issuer: 'Forage', type: 'Job simulation', url: '', issued: '[Add issue date]', credentialId: '[Add credential ID]' },
+  { title: 'SQL & Relational Databases', issuer: 'IBM SkillsBuild / Cognitive Class', type: 'Course certificate', url: '', issued: 'Completed', credentialId: '' },
+  { title: 'Excel with ChatGPT Automation', issuer: 'Simplilearn', type: 'Certificate of completion', url: '', issued: 'Completed', credentialId: '' },
+  { title: 'Power BI Data Analytics Masterclass', issuer: 'InfraOne', type: 'Masterclass', url: '', issued: 'Completed', credentialId: '' },
+  { title: 'TCS IAM Job Simulation', issuer: 'Forage', type: 'Job simulation', url: '', issued: 'November 2026', credentialId: '' },
+  { title: 'Online Retail Simulation', issuer: 'Forage', type: 'Job simulation', url: '', issued: 'Completed', credentialId: '' },
 ]
 
 export const certTypeNotes = [
@@ -199,5 +199,5 @@ export const journey = [
   { stage: 'Building', text: 'Practised SQL on MySQL, completed an SQL course, joined a Power BI masterclass, and covered Python fundamentals.' },
   { stage: 'Applying', text: 'Used Excel at Universal Quartz & Natural Stone for lead research and daily tracking, and completed Forage job simulations in cybersecurity (IAM) and online retail.' },
   { stage: 'Now', text: 'Researching Nike’s regional performance from published reports, and writing up each project as a case study.' },
-  { stage: 'Next', text: '[Add: what you plan to learn or build next, e.g. a Power BI dashboard project]' },
+  { stage: 'Next', text: 'Build a Power BI dashboard project, strengthen SQL, and keep developing case studies that connect data analysis with business decisions.' },
 ]
